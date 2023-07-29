@@ -1,4 +1,18 @@
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: red;
+  font-family: sans-serif;
+  color: purple;
 }
+img {
+  transition: width 2s;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgb(112, 241, 255), 0 6px 40px 0 ;
+  text-align: center;
+  border:  red dotted 3px;
+}
+img:hover {
+  width: 500px;
+}
+img  {
+  padding: 10px 10px 10px 10px;
+}
+
